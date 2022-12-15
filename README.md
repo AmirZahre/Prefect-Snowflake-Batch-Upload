@@ -2,8 +2,7 @@ The Prefect Flow contained within this folder is used to download five tables fr
 
 ## The Flow:
 
-![image](https://user-images.githubusercontent.com/71795488/207936010-3fc34993-7d64-4386-b1e4-0a6136969a5a.png)
-
+![image](https://user-images.githubusercontent.com/71795488/207937816-ce738480-14c4-4d6c-92ba-6688259a4b1f.png)
 
 This Flow folder contains the following folders:
 
