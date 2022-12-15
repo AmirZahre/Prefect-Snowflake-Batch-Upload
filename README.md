@@ -1,5 +1,10 @@
 The Prefect Flow contained within this folder is used to download five tables from SHARADAR, prime them for upload to Snowflake, and subsequently upload them to Snowflake. The five tables in question are: actions, daily, sep, sf1, sfp.
 
+## The Flow:
+
+![image](https://user-images.githubusercontent.com/71795488/207936010-3fc34993-7d64-4386-b1e4-0a6136969a5a.png)
+
+
 This Flow folder contains the following folders:
 
 *  `/flows`: Includes a single file, `put_method_sequential.py`, that contains the [flow](https://docs.prefect.io/concepts/flows/) for this pipeline. A flow is a container for workflow logic and allows users to interact with and reason about the state of their workflows. The flow, which makes calls to tasks located within `/tasks`. The Flow utilizes DaskTaskRunner to run the tasks in parallel.
