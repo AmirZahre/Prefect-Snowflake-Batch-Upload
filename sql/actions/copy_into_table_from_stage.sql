@@ -1,0 +1,1 @@
+COPY INTO actions FROM @csv_upload/actions

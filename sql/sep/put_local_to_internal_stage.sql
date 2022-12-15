@@ -1,0 +1,1 @@
+put file://temp/SEP/file_*.csv @csv_upload/sep parallel = 16 auto_compress=true overwrite=true

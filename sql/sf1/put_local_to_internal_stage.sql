@@ -1,0 +1,1 @@
+put file://temp/SF1/file_*.csv @csv_upload/sf1 parallel = 16 auto_compress=true overwrite=true

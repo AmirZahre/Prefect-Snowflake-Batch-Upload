@@ -1,0 +1,1 @@
+COPY INTO sf1 FROM @csv_upload/sf1

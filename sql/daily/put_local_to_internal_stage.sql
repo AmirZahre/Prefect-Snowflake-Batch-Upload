@@ -1,0 +1,1 @@
+put file://temp/DAILY/file_*.csv @csv_upload/daily parallel = 16 auto_compress=true overwrite=true
