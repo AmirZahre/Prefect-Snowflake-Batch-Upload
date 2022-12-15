@@ -1,4 +1,4 @@
-The Prefect Flow contained within this folder is used to download five tables from SHARADAR, prime them for upload to Snowflake, and subsequently upload them to Snowflake. The five tables in question are: actions, daily, sep, sf1, sfp.
+The Prefect Flow contained within this folder is used to download five tables from an external data provider, prime them for upload to Snowflake, and subsequently upload them to Snowflake. The five tables in question are: actions, daily, sep, sf1, sfp.
 
 ## The Flow:
 
